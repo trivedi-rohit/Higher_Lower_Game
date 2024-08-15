@@ -37,10 +37,10 @@ while flag_status:
     print(High_Low_Art.text2ascii_art)
     print(f"Compare 2 : {display_dict(choice_2)}")
 
-    # Guess which has more follower
+    # Guess which has more follower.
     guess = int(input("\nWho has more followers? Type '1' or '2' : "))
 
-    #Fetch follower count from Database file (High_Low_DB)
+    #Fetch follower count from Database file (High_Low_DB).
     follower_count_1 = choice_1["follower_count"]
     follower_count_2 = choice_2["follower_count"]
     print(follower_count_1)
